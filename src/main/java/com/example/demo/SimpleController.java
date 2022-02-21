@@ -15,7 +15,7 @@ public class SimpleController {
     }
 
     @CrossOrigin
-    @GetMapping("/api/shipments")
+    @GetMapping("/")
     public String getShipments() {
         return dao.findAll();
     }
