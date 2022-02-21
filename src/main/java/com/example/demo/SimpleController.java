@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import dao.SimpleDao;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +20,7 @@ public class SimpleController {
     }
 
 
+    @CrossOrigin
     @GetMapping("/api")
     public String getApi() {
         return "api";

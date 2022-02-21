@@ -1,4 +1,4 @@
-package dao;
+package com.example.demo;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Repository;
